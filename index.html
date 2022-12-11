@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project2 Nawa</title>
+    <!-- ===== Link Swiper's CSS ===== -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <!-- ===== Fontawesome CDN Link ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/fontawesome.min.css">
     <link rel="stylesheet" href="CSS/Style.css">
@@ -99,6 +105,14 @@
                     <span><a href="#" class="btn btn-lg btn-outline-light px-4 text-uppercase">EXPLORE WORK</a></span>
                 </div>
               </div>
+            </div>
+            <div class="market">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span>BUY THEME</span>
+            </div>
+            <div class="massage">
+              <i class="fa-sharp fa-solid fa-envelope"></i>
+              <span>QUICK QUSTION?</span>
             </div>
             <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -219,7 +233,7 @@
             <div class="title-post text-center">
               <div class="contents">
               <span>Naked Soap</span><br>
-              <span>WEB AND PHOTOGRAPHY</span>
+              <p>WEB AND PHOTOGRAPHY</p>
               </div>
             </div>
           </div>
@@ -232,7 +246,7 @@
             <div class="title-post text-center">
               <div class="contents">
               <span>Naked Soap</span><br>
-              <span>WEB AND PHOTOGRAPHY</span>
+              <p>WEB AND PHOTOGRAPHY</p>
               </div>
             </div>
           </div>
@@ -245,7 +259,7 @@
             <div class="title-post text-center">
               <div class="contents">
               <span>Naked Soap</span><br>
-              <span>WEB AND PHOTOGRAPHY</span>
+              <p>WEB AND PHOTOGRAPHY</p>
               </div>
             </div>
           </div>
@@ -258,7 +272,7 @@
             <div class="title-post text-center">
               <div class="contents">
               <span>Naked Soap</span><br>
-              <span>WEB AND PHOTOGRAPHY</span>
+              <p>WEB AND PHOTOGRAPHY</p>
               </div>
             </div>
           </div>
@@ -271,7 +285,7 @@
             <div class="title-post text-center">
               <div class="contents">
               <span>Naked Soap</span><br>
-              <span>WEB AND PHOTOGRAPHY</span>
+              <p>WEB AND PHOTOGRAPHY</p>
               </div>
             </div>
           </div>
@@ -284,7 +298,7 @@
             <div class="title-post text-center">
               <div class="contents">
               <span>Naked Soap</span><br>
-              <span>WEB AND PHOTOGRAPHY</span>
+              <p>WEB AND PHOTOGRAPHY</p>
               </div>
             </div>
           </div>
@@ -297,7 +311,7 @@
             <div class="title-post text-center">
               <div class="contents">
               <span>Naked Soap</span><br>
-              <span>WEB AND PHOTOGRAPHY</span>
+              <p>WEB AND PHOTOGRAPHY</p>
               </div>
             </div>
           </div>
@@ -310,7 +324,7 @@
             <div class="title-post text-center">
               <div class="contents">
               <span>Naked Soap</span><br>
-              <span>WEB AND PHOTOGRAPHY</span>
+              <p>WEB AND PHOTOGRAPHY</p>
               </div>
             </div>
           </div>
@@ -399,16 +413,39 @@
         <div class="midle">
           <div class="container text-center">
             <div class="row">
-              <div class="col-4"><img src="images/image-1.jpg.webp" alt="">
+              <div class="col-4"><div class="flipcard">
+                <div class="front">
+                  <img src="images/image-1.jpg.webp" alt="">
+                </div>
+                <div class="back text-center">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
                 <P class="text-black">Design and Development</P>
-              <span>600+ We created web design</span></div>
-              <div class="col-4"><img src="images/blog-img2.jpg.webp" alt="">
-              <P class="text-black">Social Media Marketing</P>
-            <span>475+ We completed marketing</span></div>
-              <div class="col-4"><img src="images/blog-img3.jpg (1).webp" alt="">
-              <p class="text-black">Mobile App Development</p>
-            <span>475+ We created mobile app</span></div>
-              
+              <span>600+ We created web design</span>
+            </div> 
+            <div class="col-4"><div class="flipcard">
+                <div class="front">
+                  <img src="images/blog-img2.jpg.webp" alt="">
+                </div>
+                <div class="back text-center">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
+                <P class="text-black">Social Media Marketing</P>
+              <span>475+ We completed marketing</span>
+            </div> 
+            <div class="col-4"><div class="flipcard">
+                <div class="front">
+                  <img src="images/blog-img3.jpg (1).webp" alt="">
+                </div>
+                <div class="back text-center">
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+              </div>
+                <P class="text-black">Mobile App Development</P>
+              <span>475+ We created mobile app</span>
+            </div>
             </div>
           </div>
         </div>
@@ -511,6 +548,83 @@
       <div><img src="images/02.webp" alt=""></div>  
       <div><img src="images/03.webp" alt=""></div>  
     </div>
+    <section id="page-13" class="text-center" >
+      <span class="s_1">WHAT PEOPLE SAY</span>
+        <h2>CLIENTS WORDS</h2>
+        <div class="line"></div>
+        <section class="sec">
+          <div class="swiper mySwiper container">
+            <div class="swiper-wrapper content">
+      
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="images/avtar-14.jpg.webp" alt="">
+                  </div>
+                  <div class="name-profession">
+                    <p>
+                      I wanted to hire the best and after looking at several other companies, I knew Jacob was the perfect guy for the job. He is a true professional.
+                    </p>
+                    <span class="s_1">SHOKO MUGIKURA</span>
+                    <span class="s_2">DESIGN MANAGER</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="images/avtar-13.jpg.webp" alt="">
+                  </div>
+                  <div class="name-profession">
+                    <p>
+                      Trust us we looked for a very long time and wasted thousands of dollars testing other teams, freelancers, and outsource companies.
+                    </p>
+                    <span class="s_1">ALEXANDER HARVARD</span>
+                    <span class="s_2">CO FOUNDER / CEO</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="images/avtar-15.jpg.webp" alt="">
+                  </div>
+                  <div class="name-profession">
+                    <p>
+                      This is an excellent company! I personally enjoyed the energy and the professional support the whole team
+                    </p>
+                    <span class="s_1 pt-5">LINDSAY SWANSON</span>
+                    <span class="s_2">CREATIVE DIRECTOR</span>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="swiper-slide card">
+                <div class="card-content">
+                  <div class="image">
+                    <img src="images/avtar-16.jpg.webp" alt="">
+                  </div>
+                  <div class="name-profession">
+                    <p>
+                      Their team are easy to work with and helped me make amazing websites in a short amount of time. Thanks again guys for all your hard work.
+                    </p>
+                    <span class="s_1">HERMAN MILLER</span>
+                    <span class="s_2">CREATIVE DIRECTOR</span>
+                  </div>
+                </div>
+              </div>    
+         
+            </div>
+          </div>
+      
+          <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </section>
+    </section>
     <section id="offers" class="container-fluid">
       <span class="s_1">PUBLISH WHAT YOU THINK</span>
       <h2>LATEST BLOGS</h2>
@@ -653,6 +767,7 @@
                     <img src="images/238817494_1919163118222884_5100979535562840833_n.jpg" alt="">
                   </a>
                   <div class="title-foo text-center">
+                    <i class="fa-brands fa-instagram"></i>
                   </div>
                 </div>
               </div> 
@@ -662,6 +777,7 @@
                     <img src="images/239197255_560778658392206_7194270205704366857_n.jpg" alt="">
                   </a>
                   <div class="title-foo text-center">
+                    <i class="fa-brands fa-instagram"></i>
                   </div>
                 </div>
               </div> 
@@ -671,6 +787,7 @@
                     <img src="images/238521072_649254419800812_3892372618274440747_n.jpg" alt="">
                   </a>
                   <div class="title-foo text-center">
+                    <i class="fa-brands fa-instagram"></i>
                   </div>
                 </div>
               </div> 
@@ -680,6 +797,7 @@
                     <img src="images/238210052_4188377034588016_8884491156451770142_n.jpg" alt="">
                   </a>
                   <div class="title-foo text-center">
+                    <i class="fa-brands fa-instagram"></i>
                   </div>
                 </div>
               </div> 
@@ -689,6 +807,7 @@
                     <img src="images/238640110_2685360765099701_5375829091553479667_n.jpg" alt="">
                   </a>
                   <div class="title-foo text-center">
+                    <i class="fa-brands fa-instagram"></i>
                   </div>
                 </div>
               </div> 
@@ -698,6 +817,7 @@
                     <img src="images/238664214_234118888593190_5951674081638019704_n.jpg" alt="">
                   </a>
                   <div class="title-foo text-center">
+                    <i class="fa-brands fa-instagram"></i>
                   </div>
                 </div>
               </div>  
@@ -716,6 +836,8 @@
         </div>
       </div>
     </div>
+     <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.1.js"
             integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
